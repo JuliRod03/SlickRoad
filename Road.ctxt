@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Road
+comment1.params=length
+comment1.target=Road(int)
+comment10.params=
+comment10.target=void\ finish()
+comment11.params=
+comment11.target=int\ getSegmentCount()
+comment12.params=index
+comment12.target=java.awt.Point\ getSegmentPosition(int)
+comment2.params=
+comment2.target=void\ createRoadPath()
+comment3.params=gridX\ gridY
+comment3.target=void\ createSegmentAt(int,\ int)
+comment4.params=fromX\ fromY\ toX\ toY
+comment4.target=void\ createStraightLine(int,\ int,\ int,\ int)
+comment5.params=
+comment5.target=int\ getLength()
+comment6.params=
+comment6.target=void\ makeVisible()
+comment7.params=
+comment7.target=void\ makeInvisible()
+comment8.params=
+comment8.target=void\ draw()
+comment9.params=
+comment9.target=void\ erase()
+numComments=13

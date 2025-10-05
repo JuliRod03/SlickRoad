@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Canvas
+comment0.text=\r\n\ Canvas\ es\ una\ clase\ que\ permite\ dibujar\ figuras\ simples\ en\ una\ ventana.\r\n\ \r\n\ @author\ Michael\ Kolling\ and\ David\ J.\ Barnes\ \r\n\ @version\ 2016.02.29\r\n
+comment1.params=
+comment1.target=Canvas\ getCanvas()
+comment2.params=title\ width\ height\ bgColour
+comment2.target=Canvas(java.lang.String,\ int,\ int,\ java.awt.Color)
+comment2.text=\r\n\ Crea\ un\ Canvas.\r\n\ @param\ title\ \ \ \ t\u00EDtulo\ de\ la\ ventana\r\n\ @param\ width\ \ \ \ ancho\ de\ la\ ventana\r\n\ @param\ height\ \ \ alto\ de\ la\ ventana\r\n\ @param\ bgColour\ color\ de\ fondo\ de\ la\ ventana\r\n
+comment3.params=visible
+comment3.target=void\ setVisible(boolean)
+comment3.text=\r\n\ Hace\ la\ ventana\ visible\ o\ invisible.\r\n\ @param\ visible\ \ true\ para\ hacer\ visible,\ false\ para\ invisible.\r\n
+comment4.params=referenceObject\ color\ shape
+comment4.target=void\ draw(java.lang.Object,\ java.lang.String,\ java.awt.Shape)
+comment4.text=\r\n\ Dibuja\ la\ figura\ dada\ en\ el\ canvas.\r\n\ @param\ \ referenceObject\ \ un\ objeto\ para\ definir\ identidad\ para\ esta\ figura\r\n\ @param\ \ color\ \ \ \ \ \ \ \ \ \ \ \ el\ color\ de\ la\ figura\r\n\ @param\ \ shape\ \ \ \ \ \ \ \ \ \ \ \ un\ objeto\ que\ define\ la\ figura\ a\ dibujar\r\n
+comment5.params=referenceObject
+comment5.target=void\ erase(java.lang.Object)
+comment5.text=\r\n\ Borra\ la\ figura\ dada\ del\ canvas.\r\n\ @param\ \ referenceObject\ \ el\ objeto\ forma\ que\ ser\u00E1\ borrado\ \r\n
+comment6.params=milliseconds
+comment6.target=void\ wait(int)
+comment6.text=\r\n\ Espera\ un\ n\u00FAmero\ espec\u00EDfico\ de\ milisegundos\ antes\ de\ finalizar.\r\n\ @param\ \ milliseconds\ \ el\ n\u00FAmero\ de\ millisegundos\ a\ esperar\r\n
+comment7.params=
+comment7.target=void\ redraw()
+comment7.text=\r\n\ Redibuja\ todas\ las\ figuras\ actualmente\ en\ el\ Canvas.\r\n
+comment8.params=
+comment8.target=void\ erase()
+comment8.text=\r\n\ Borra\ todo\ el\ canvas.\r\n
+numComments=9
